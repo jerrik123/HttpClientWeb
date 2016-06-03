@@ -33,13 +33,13 @@ import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 
 /**
- * @ClassName: HttpUtils
+ * @ClassName: HttpClientUtil
  * @Description: (通用Http请求工具类,具备超时方法和重试机制)
  * @author Jerrik
  * @date 2016年6月03日 上午9:27:23
  */
-public class HttpUtils {
-	private static final Logger LOGGER = Logger.getLogger(HttpUtils.class);
+public class HttpClientUtil {
+	private static final Logger LOGGER = Logger.getLogger(HttpClientUtil.class);
 
 	/**
 	 * 发送Http Get请求
