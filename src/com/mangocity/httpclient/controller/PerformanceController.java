@@ -56,12 +56,12 @@ public class PerformanceController extends HttpServlet {
 			
 		}*/
 		
-		try {
+		/*try {
 			TimeUnit.SECONDS.sleep(1000);
 		} catch (InterruptedException e) {
 			
 			e.printStackTrace();
-		}
+		}*/
 		long  end = System.currentTimeMillis();
 		System.out.println("缓存完毕...totalTime: " + (end-start)/1000.0);
 		
